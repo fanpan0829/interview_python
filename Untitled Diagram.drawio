@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T04:49:53.268Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 SLBrowser/7.0.0.4071 SLBChan/25" etag="eQqQOyeL8fpWjVRfayAW" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-07T04:59:30.944Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 SLBrowser/7.0.0.4071 SLBChan/25" etag="CYsFP702C8Jrd_tCnbOj" version="14.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="981" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,7 +66,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xQYp_zpDM4I536Mhp9Ty-28" value="失效阈值" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="xQYp_zpDM4I536Mhp9Ty-28" value="失效阈值&amp;amp;&lt;br&gt;预测时长" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="220" y="485" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xQYp_zpDM4I536Mhp9Ty-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xQYp_zpDM4I536Mhp9Ty-29" target="xQYp_zpDM4I536Mhp9Ty-30">
@@ -78,25 +78,50 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xQYp_zpDM4I536Mhp9Ty-29" value="算法趋势项" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="xQYp_zpDM4I536Mhp9Ty-29" value="算法趋势项&amp;amp;&lt;br&gt;算法超参数" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="560" y="485" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xQYp_zpDM4I536Mhp9Ty-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.565;entryY=-0.013;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xQYp_zpDM4I536Mhp9Ty-30" target="xQYp_zpDM4I536Mhp9Ty-35">
+        <mxCell id="xQYp_zpDM4I536Mhp9Ty-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xQYp_zpDM4I536Mhp9Ty-30" target="xQYp_zpDM4I536Mhp9Ty-35">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="450" y="610" />
-              <mxPoint x="345" y="610" />
+              <mxPoint x="290" y="610" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xQYp_zpDM4I536Mhp9Ty-30" value="寿命预测算法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="390" y="558" width="120" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="xQYp_zpDM4I536Mhp9Ty-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xQYp_zpDM4I536Mhp9Ty-35" target="xQYp_zpDM4I536Mhp9Ty-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQYp_zpDM4I536Mhp9Ty-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xQYp_zpDM4I536Mhp9Ty-35" target="xQYp_zpDM4I536Mhp9Ty-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="676" />
+              <mxPoint x="180" y="676" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xQYp_zpDM4I536Mhp9Ty-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xQYp_zpDM4I536Mhp9Ty-35" target="xQYp_zpDM4I536Mhp9Ty-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="676" />
+              <mxPoint x="400" y="676" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xQYp_zpDM4I536Mhp9Ty-35" value="寿命预测结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="300" y="630" width="80" height="35" as="geometry" />
+          <mxGeometry x="250" y="630" width="80" height="35" as="geometry" />
         </mxCell>
         <mxCell id="xQYp_zpDM4I536Mhp9Ty-39" value="上/下区间/中位数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="170" y="680" width="80" height="35" as="geometry" />
+          <mxGeometry x="140" y="693" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="xQYp_zpDM4I536Mhp9Ty-40" value="剩余寿命" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250" y="693" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="xQYp_zpDM4I536Mhp9Ty-41" value="剩余寿命区间" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="693" width="80" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
